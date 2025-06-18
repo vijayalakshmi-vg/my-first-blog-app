@@ -80,6 +80,14 @@ DATABASES = {
     }
 }
 
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+
+import os
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
