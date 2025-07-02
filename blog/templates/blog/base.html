@@ -28,10 +28,21 @@
               <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
             </div>
             <!-- Navbar Right Side -->
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Login</a>
-              <a class="nav-item nav-link" href="#">Register</a>
+           <div class="navbar-nav">
+              {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                <form action="{% url 'logout' %}" method="post" style="display: inline;">
+                  {% csrf_token %}
+                  <button type="submit" class="btn btn-link nav-link" style="padding: 0; border: none; background: none;">
+                    Logout
+                  </button>
+                </form>
+              {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+              {% endif %}
             </div>
+
           </div>
         </div>
       </nav>
@@ -46,10 +57,6 @@
               </div>
             {% endfor %}
           {% endif %}
-<<<<<<< HEAD
-
-=======
->>>>>>> 0eee0a25bccaee5c63e3baad7e8fb0122680e8be
           {% block content %}{% endblock %}
         </div>
         <div class="col-md-4">
