@@ -1,0 +1,152 @@
+[
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Welcome to the Blog",
+      "content": "This is the first post on our blog.",
+      "date_posted": "2025-01-01T12:00:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "Learning Django",
+      "content": "Django makes web development fast and clean.",
+      "date_posted": "2025-01-02T09:00:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "Pagination Feature",
+      "content": "Let's try out Django's pagination in this tutorial.",
+      "date_posted": "2025-01-03T15:30:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "Post Number Four",
+      "content": "Here's some more content for testing pagination.",
+      "date_posted": "2025-01-04T18:45:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "Last Sample Post",
+      "content": "This is the fifth and final post in our sample.",
+      "date_posted": "2025-01-05T20:00:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "title": "Another Day, Another Post",
+      "content": "We’re adding more posts to test the pagination feature.",
+      "date_posted": "2025-01-06T08:00:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "title": "Seventh Post Magic",
+      "content": "The seventh post marks the start of deeper pagination testing.",
+      "date_posted": "2025-01-07T11:20:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+      "title": "Keeping the Flow",
+      "content": "More content, more fun, more scrolling!",
+      "date_posted": "2025-01-08T14:10:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+      "title": "Almost There",
+      "content": "We're approaching 10 posts in our sample data!",
+      "date_posted": "2025-01-09T10:45:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+      "title": "Post Ten",
+      "content": "Double digits now! Let's add more posts for extra testing.",
+      "date_posted": "2025-01-10T16:15:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 11,
+    "fields": {
+      "title": "Testing Continues",
+      "content": "With eleven posts, pagination really comes into play.",
+      "date_posted": "2025-01-11T13:30:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 12,
+    "fields": {
+      "title": "A Dozen Posts",
+      "content": "Twelve sample blog posts for a thorough test.",
+      "date_posted": "2025-01-12T09:40:00Z",
+      "author": 1
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 13,
+    "fields": {
+      "title": "Lucky Thirteen",
+      "content": "Let’s see how page navigation handles this one.",
+      "date_posted": "2025-01-13T08:50:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 14,
+    "fields": {
+      "title": "Penultimate Post",
+      "content": "One more to go! This is the fourteenth entry.",
+      "date_posted": "2025-01-14T10:10:00Z",
+      "author": 2
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 15,
+    "fields": {
+      "title": "Fifteen and Done",
+      "content": "Fifteen total posts should be more than enough for pagination testing.",
+      "date_posted": "2025-01-15T11:59:00Z",
+      "author": 2
+    }
+  }
+]
